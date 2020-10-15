@@ -16,8 +16,8 @@ import { getMainDefinition } from "apollo-utilities";
 import { onError } from "apollo-link-error";
 
 const httpLink = createHttpLink({
-  uri: "http://3.34.199.225:4000",
-});
+  uri: "http://localhost:4000"
+})
 
 const authLink = setContext((_, { headers }) => {
   const token = localStorage.getItem(AUTH_TOKEN);
@@ -34,7 +34,7 @@ const errorLink = onError(({ graphQLErrors }) => {
 });
 
 const wsLink = new WebSocketLink({
-  uri: `ws://3.34.199.225:4000`,
+  uri: `ws://localhost:4000`,
   options: {
     reconnect: true,
     connectionParams: {
