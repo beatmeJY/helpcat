@@ -3,7 +3,7 @@
 ### 실행전 주의사항
 1. https://github.com/kdhyo/helpcat-server 에 접속하여 서버를 설치하여야 합니다.
 2. 클라이언트는 npm i로, 서버는 yarn으로 설치하여줍니다.
-3. example.env 에서 카카오맵 API 키를 입력하여줍니다.
+3. example.env 에서 카카오맵 API 키를 입력하여주고 파일명의 example을 지워 .env로 만들어줍니다.
 4. 서버의 자세한 세팅은 위의 링크를 통해 확인하여주시길 바랍니다.
 
 ### 클라이언트 작업내역
