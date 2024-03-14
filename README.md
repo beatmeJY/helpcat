@@ -1,4 +1,4 @@
-## 최지율,문승익 Helpcat 프론트앤드
+## 최지율,문승익 Helpcat React 프론트앤드 서버
 
 ### 실행전 주의사항
 1. https://github.com/kdhyo/helpcat-server 에 접속하여 서버를 설치하여야 합니다.
